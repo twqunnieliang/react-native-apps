@@ -36,11 +36,11 @@ app.use(cors());
 
 // 設置 PostgreSQL 連接池
 const pool = new Pool({
-  user: 'app_user',
-  host: '192.168.105.181',
-  database: 'app',
-  password: 'Yhji8710',
-  port: 15432,
+  user: 'user',
+  host: 'hostname',
+  database: 'database',
+  password: 'password',
+  port: port,
 });
 
 // API 端點來獲取訊息
